@@ -1,0 +1,14 @@
+.promo > * {
+    margin: 20px 0;
+}
+
+.main-card a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.balance {
+    font-size: 1.3em;
+    margin: 10px 0;
+}

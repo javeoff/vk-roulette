@@ -1,0 +1,80 @@
+.name {
+    font-size: 1.5em;
+    margin: auto 10px;
+    padding-top: 10px;
+}
+
+/*.menu {*/
+/*    display: flex;*/
+/*}*/
+
+.sub-menu {
+    margin: -20px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.menu > * {*/
+/*    color: #000000;*/
+/*    height: 100px;*/
+/*}*/
+
+/*.icon {*/
+/*    color: #000;*/
+/*}*/
+
+.but-info {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.9em;
+    padding:0 8px;
+}
+
+.row {
+    box-sizing: border-box;
+    display: inline-flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.balance {
+    font-size: 1.4em;
+}
+
+
+.for-balance {
+    display: block;
+    font-size: 0.8em;
+    opacity: .7;
+}
+
+.card-item {
+    /*margin: 5px 0;*/
+}
+.card-tt:nth-child(2n+1) {
+    margin-left: 0!important;
+}
+
+.card-item:last-child {
+
+}
+
+.CardGrid {
+    margin-top: 0!important;
+}
+
+.item-img {
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
